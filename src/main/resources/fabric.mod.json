@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "item-frame-clickthrough",
+	"version": "${version}",
+	"name": "Item Frame Clickthrough",
+	"description": "Click through item frames",
+	"authors": [
+		"rikumi"
+	],
+	"contact": {
+		"sources": "https://github.com/rikumi/item-frame-clickthrough"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/item-frame-clickthrough/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.rikumi.itemframeclickthrough.ItemFrameClickthrough"
+		]
+	},
+	"mixins": [
+		"item-frame-clickthrough.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.13",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
